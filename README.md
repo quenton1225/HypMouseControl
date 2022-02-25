@@ -16,3 +16,16 @@
 注意：由于pyautogui的依赖，需要额外安装pillow和opencv-python
 
 由使用本程序造成的任何ban或wipe后果，本程序概不负责。
+
+
+2022/1/31 Update - Improved the logic of recognizing pictures, making hang up more stable
+
+To use this program, you need to stand at -102.5, 215, 124.5 in the Dwarven Mine, facing the center of the blue wool block directly in front of you. Of course, you can also achieve automatic mining in other locations by changing the coordinate table in the program.
+
+Tap [f] to start, and tap [t] to end.
+
+In order to realize the function of automatic shutdown after restarting the server lobby, you can put screenshots of any element that will only appear at the point where you hang up in the folder. It does not accept compression, discoloration or rotation, and must be a .png file. A schematic image is given in the archive, you can also choose not to use any screenshots, but this will lose the function.
+
+This program is developed in python language, so you need to install python in the running computer, and include pyautogui and keyboard libraries. Note: Due to the dependency of pyautogui, pillow and opencv-python need to be additionally installed
+
+This program is not responsible for any ban or wipe consequences caused by the use of this program.
